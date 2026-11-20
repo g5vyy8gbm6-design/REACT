@@ -48,4 +48,9 @@ import useCrudSimulado(claveStorage, datosIniciales) {
         listaActual.map((registro) => (registro.id === id ? { ...registro, activo: !registro.acivo } : registro))
         );
     }
+
+    //Devolvemos todo lo que una pagina necesita los datos y las 3 acciones
+    return {lista, agregar, actualizar, alternarEstado};
+
 }
+export default useCrudSimulado;

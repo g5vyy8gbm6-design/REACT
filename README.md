@@ -132,7 +132,7 @@ react solo se encarga de la int grafica para el resto utilizamos:
 - frontend/src/hooks/useCrudSimulado.js
 - frontend/src/components/common/EstadoBadge.jsx
 - frontend/src/components/common/confirModaal.jsx
-- frontend/src/components/UsuarioFormMordal.jsx
+- frontend/src/components/usuarios/UsuarioFormMordal.jsx
 - frontend/src/page/UsuariosPage.jsx
 
 
