@@ -136,5 +136,9 @@ react solo se encarga de la int grafica para el resto utilizamos:
 - frontend/src/page/UsuariosPage.jsx
 
 
+    -12 crear componentes, categorias, usuarios, productos common, subcategorias
+- frontend/src/components/categorias/CategoriaFormModal.jsx
+- frontend/src/components/productos/ProductoFormModal.jsx
+- frontend/src/components/subcategorias/SubcategoriaFormModal.jsx
 
 # REACT
