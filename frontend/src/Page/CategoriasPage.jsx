@@ -16,7 +16,7 @@ import mockCategorias from '../data/mockCategorias';
 // Modal con el formulario de crear/editar categoria
 import CategoriaFormModal from '../components/categorias/CategoriaFormModal';
 // Modal generico de confirmacion (para activar/desactivar)
-import ConfirmModal from '../components/common/ConfirmModal';
+import ConfirmModal from '../components/common/confirModal';
 // Etiqueta visual de "Activo"/"Inactivo"
 import EstadoBadge from '../components/common/EstadoBadge';
 

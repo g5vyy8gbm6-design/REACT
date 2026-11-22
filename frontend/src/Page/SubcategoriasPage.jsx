@@ -18,7 +18,7 @@ import mockSubcategorias from '../data/mockSubcategorias';
 // Modal con el formulario de crear/editar subcategoria
 import SubcategoriaFormModal from '../components/subcategorias/SubcategoriaFormModal';
 // Modal generico de confirmacion (para activar/desactivar)
-import ConfirmModal from '../components/common/ConfirmModal';
+import ConfirmModal from '../components/common/confirModal';
 // Etiqueta visual de "Activo"/"Inactivo"
 import EstadoBadge from '../components/common/EstadoBadge';
 

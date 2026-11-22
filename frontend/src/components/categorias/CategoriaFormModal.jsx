@@ -8,13 +8,13 @@
 import {useEffect, useState } from 'react';
 
 //Valores vacios que usamos para arrancar el formulario en modo "crear"
-const FORMILARIO_VACIO = {nombre: '', descripcion: ''};
+const FORMULARIO_VACIO = {nombre: '', descripcion: ''};
 
 //mostrar: si el modal se ve; registroEditar: categoria a editar (o null
 // si es nueva); onGuardar/onCerrar: funciones que decide CategoriasPage
-function CategoriaFormModal({mostrar, registroEditor, onGuardar, onCerrar}) {
+function CategoriaFormModal({mostrar, registroEditar, onGuardar, onCerrar}) {
     //estado local con los valores actuales de los campos del formulario
-    const [formulario, setFormulario] = useState(FORMILARIO_VACIO);
+    const [formulario, setFormulario] = useState(FORMULARIO_VACIO);
     
     //Cada vez que cambia registroEditar o se abre el modal, sincronizamos
     //el formulario: carga los datos si es edicion, o lo deja vacio si es creacion .

@@ -17,7 +17,7 @@ import mockProductos from '../data/mockProductos';
 // Modal con el formulario de crear/editar producto
 import ProductoFormModal from '../components/productos/ProductoFormModal';
 // Modal generico de confirmacion (para activar/desactivar)
-import ConfirmModal from '../components/common/ConfirmModal';
+import ConfirmModal from '../components/common/confirModal';
 // Etiqueta visual de "Activo"/"Inactivo"
 import EstadoBadge from '../components/common/EstadoBadge';
 

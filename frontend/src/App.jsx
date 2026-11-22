@@ -17,13 +17,13 @@ import ProtectedRoute from './routes/ProtectedRoute';
 import DashboardLayout from './layouts/DashboardLayout';
 
 // Paginas publicas y privadas de la aplicacion
-import LoginPage from './pages/LoginPage';
-import DashboardHome from './pages/DashboardHome';
-import UsuariosPage from './pages/UsuariosPage';
-import CategoriasPage from './pages/CategoriasPage';
-import SubcategoriasPage from './pages/SubcategoriasPage';
-import ProductosPage from './pages/ProductosPage';
-import NotFoundPage from './pages/NotFoundPage';
+import LoginPage from './Page/LoginPage';
+import DashboardHome from './Page/DashboardHome';
+import UsuarioPage from './Page/UsuarioPage';
+import CategoriasPage from './Page/CategoriasPage';
+import SubcategoriasPage from './Page/SubcategoriasPage';
+import ProductosPage from './Page/ProductosPage';
+import NotFoundPage from './Page/NotFoundPage';
 
 // Componente raiz: se renderiza dentro de <BrowserRouter> (ver main.jsx)
 function App() {
@@ -43,7 +43,7 @@ function App() {
         <Route path="/dashboard" element={<DashboardLayout />}>
           {/* index = lo que se muestra en exactamente "/dashboard" */}
           <Route index element={<DashboardHome />} />
-          <Route path="usuarios" element={<UsuariosPage />} />
+          <Route path="usuarios" element={<UsuarioPage />} />
           
           
           <Route path="categorias" element={<CategoriasPage />} />
